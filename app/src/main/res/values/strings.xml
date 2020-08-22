@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Africa Trivia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_text">Play</string>
+    <string name="play_quiz">Play Quiz</string>
+    <string name="africa_image">Africa Image</string>
+    <string name="trivia">TRIVIA</string>
+</resources>
