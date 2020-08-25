@@ -21,9 +21,7 @@
         tools:layout="@layout/game_fragment" >
         <action
             android:id="@+id/action_gameFragment_to_gameWonFragment"
-            app:destination="@id/gameWonFragment"
-            app:popUpTo="@id/gameFragment"
-            app:popUpToInclusive="true" />
+            app:destination="@id/gameWonFragment" />
         <action
             android:id="@+id/action_gameFragment_to_gameLostFragment"
             app:destination="@id/gameLostFragment"
@@ -35,12 +33,6 @@
         android:name="com.example.africatrivia.score.won.GameWonFragment"
         android:label="game_win_fragment"
         tools:layout="@layout/game_won_fragment" >
-        <argument
-            android:name="score"
-            app:argType="integer" />
-        <argument
-            android:name="wrongAnswers"
-            app:argType="string[]" />
         <action
             android:id="@+id/action_gameWonFragment_to_titleFragment"
             app:destination="@id/titleFragment"

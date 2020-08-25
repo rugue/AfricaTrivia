@@ -5,8 +5,8 @@
 
     <data>
         <variable
-            name="gamewon"
-            type="com.example.africatrivia.score.won.GameWonFragment" />
+            name="gameWonViewModel"
+            type="com.example.africatrivia.score.won.GameWonViewModel" />
     </data>
 
     <ScrollView
@@ -27,24 +27,8 @@
                 android:text="Your Score"
                 android:textSize="22sp" />
 
-            <TextView
-                android:id="@+id/txt_score"
-                style="@style/ScoreStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@{gamewon.earnedScore}"
-                tools:text="100" />
+        
 
-
-            <ImageView
-                android:id="@+id/score_share"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:contentDescription="share"
-                android:src="@drawable/ic_share_black" />
 
 
             <Button
@@ -66,14 +50,7 @@
                 android:visibility="gone" />
 
 
-            <TextView
-                android:id="@+id/txt_wrong_answer"
-                style="@style/WrongAnswersStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@{gamewon.wrongAnswerText}"
-                android:visibility="gone"
-                tools:text="this is a wrong answer" />
+
 
 
         </LinearLayout>

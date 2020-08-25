@@ -11,4 +11,7 @@
     <string name="rules">Rules</string>
     <string name="about">About</string>
 
+    <string name="title_africa_trivia_question">Africa Trivia (%1$d/%2$d)</string>
+    <string name="end_game">End Game</string>
+
 </resources>

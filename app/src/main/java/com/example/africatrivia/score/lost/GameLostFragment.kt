@@ -45,7 +45,7 @@ class GameLostFragment : Fragment() {
             earnedScore = args.score.toString()
             if (args.wrongAnswers.isNotEmpty()) {
                 yourwronganswer.visibility = View.VISIBLE
-                txt_wrong_answer.visibility = View.VISIBLE
+                //txt_wrong_answer.visibility = View.VISIBLE
 
                 for (ans in args.wrongAnswers) {
                     wrongAnswerText = wrongAnswerText + ans + "\n"
